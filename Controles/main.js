@@ -31,7 +31,7 @@ productos.forEach(producto => {
     imagen.src = `${producto.imagen}`;
     imagen.classList.add("img-manicuras") // Agregar la URL de la imagen
    
-    const titulo = document.createElement('h3');s
+    const titulo = document.createElement('h3');
     titulo.textContent = producto.nombre;
 
     const precio = document.createElement('h5');
