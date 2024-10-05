@@ -15,7 +15,8 @@
 include '../unas-valladolid/VISUAL/header.php';
 ?>
    </header>
-   <main> <div class="card mb-3 cartajs" id="productos-card">
+   <main>
+     <div class="card mb-3 cartajs" id="productos-card">
     <img class="img-manicuras rounded-circle" src="http://localhost/unas-valladolid/img-acrilicas/1Acr%c3%adlicasXL.jpg" alt="acrilicas">
     <h3 class="card-header">Uñas acrilicas</h3>
     <div class="card-body">
