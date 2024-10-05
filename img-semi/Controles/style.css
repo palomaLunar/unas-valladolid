@@ -1,0 +1,45 @@
+body {
+    background-image: url(/img-acrilicas/Acrílicas\ piedra\ por\ piedra.jpg);
+    background-repeat: repeat-x;
+}
+ul {
+    list-style: none; /* Elimina los marcadores de lista */
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: block;
+}
+a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f1f1f1;
+}
+
+a:hover {
+    background-color: #ddd;
+}
+nav.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav.menu li {
+    display: block;
+}
+
+nav.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f1f1f1;
+}
+
+nav.menu a:hover {
+    background-color: #ddd;
+}
+/* hasta aqui no funciona el puto navegador chueco */

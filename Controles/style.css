@@ -1,0 +1,142 @@
+body {
+    background-image: url(/img-acrilicas/Acrílicas\ piedra\ por\ piedra.jpg);
+    background-repeat: repeat-x;
+}
+/** stylos de el menu principal */
+ul {
+    list-style: none; /* Elimina los marcadores de lista */
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: block;
+}
+a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #110f0f;
+    background-color: #923636;
+}
+
+a:hover {
+    background-color: #ddd;
+}
+nav.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav.menu li {
+    display: block;
+}
+
+nav.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f1f1f1;
+}
+
+nav.menu a:hover {
+    background-color: #ddd;
+}
+/* hasta aqui no funciona el puto navegador chueco */
+/* hasta aqui no funciona el puto navegador chueco */
+
+
+
+
+
+
+/** estilos header  */
+.container-fluid {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+    padding: 50px; /* Ajusta el padding para el espacio alrededor de la imagen y el botón */
+}
+
+.rounded-circle {
+    max-width: 200px; /* Ajusta el tamaño máximo de la imagen */
+}
+.container-fluid {
+    background-image: url('../img-semi/ojodegatosemi.jpg'); /* Imagen de fondo opcional */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+
+}
+
+/** estilos de contacto  */
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;  
+
+    border-radius: 4px;
+    cursor: pointer;
+}
+.boton-llamada, .boton-whatsapp {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .boton-llamada {
+    background-color: #3498db;
+    border-radius: 50%;
+    background-image: url('icono-telefono.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 25px;
+  }
+  
+  .boton-whatsapp {
+    background-color: #25d366;
+    border-radius: 10px;
+    background-image: url('icono-whatsapp.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 25px;
+  }
+
+
+
+
+/** stilos footer */
+#footer {
+    background-image: url('../img-semi/Semi.jpg'); /* Imagen de fondo opcional */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    color: black;
+}
+
+    /** stilos car de productos */
+    .img-manicuras {
+        width: 100px; /* Ajusta el tamaño según tus necesidades */
+        height: 100px;
+        object-fit: cover; /* La imagen llenará el contenedor manteniendo su proporción */
+        border-radius: 50%; /* Crea el borde circular */
+      }
