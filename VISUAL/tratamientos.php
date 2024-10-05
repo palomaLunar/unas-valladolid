@@ -16,7 +16,7 @@ include 'header.php';
     <section id="tratamientos">
         <h2>Nuestros Tratamientos</h2>
         <div class="tratamiento">
-            <img src="../img-acrilicas/ACRILICAS(1).jpg" alt="uñas-acrilicas">
+            <img class="img-tratamientos" src="../img-acrilicas/ACRILICAS(1).jpg" alt="uñas-acrilicas">
             <h3>uñas acrilicas</h3>
             <p>Disfruta de una manicura clásica que incluye corte, limado y esmaltado de uñas.</p>
         </div>
@@ -54,5 +54,6 @@ include 'header.php';
 include './footer.php';
 ?>
     </footer>
+    <script src="../Controles/main.js"></script>
 </body>
 </html>
