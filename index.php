@@ -8,8 +8,13 @@
     <title>UÑAS-ACRILICAS</title>
     <link rel="stylesheet" href="../unas-valladolid/Controles/style.css">
     <link rel="stylesheet" href="../unas-valladolid/Controles/bootswatch.css">
+    
 </head>
 <body>
+
+
+
+
    <header>
    <?php
 include '../unas-valladolid/VISUAL/header.php';
@@ -28,13 +33,69 @@ include '../unas-valladolid/VISUAL/header.php';
       <text x="50%" y="50%" fill="#dee2e6" dy=".3em"><img src="/unas-valladolid/img-acrilicas/ACRILICAS punta de lanza.jpg" alt="puntadelanza">punta de lanza</text>
     </svg> -->
   
-  </div></main>
+  </div>
+  <h2>Galeria de acrilicas</h2>
+  <div class="gallery">
+    
+  <img src="../unas-valladolid/img-acrilicas/2manicura.jpg" alt="manicura-rusa-acrilico">
+  <img src="../unas-valladolid/img-acrilicas/-1manicurarusa.jpg" alt="manicura-rusa-acrilico">
+  <img src="../unas-valladolid/img-acrilicas/-manicurarusa.jpg" alt="manicura-rusa-acrilico">
+  <img src="../unas-valladolid/img-acrilicas/3manicurarusa.jpg" alt="manicura-rusa-acrilico">
+  <img src="../unas-valladolid/img-acrilicas/1AcrílicasXL.jpg" alt="manicura-rusa-acrilico">
+  <img src="../unas-valladolid/img-acrilicas/acrilicas28.jpg" alt="manicura-rusa-acrilico">
+  <img src="../unas-valladolid/img-acrilicas/acrilicas29.jpg"
+  alt="manicura-rusa-acrilico">
+  <img src="../unas-valladolid/img-acrilicas/ACRILICAS(1).jpg" alt="manicura-rusa-acrilico">
+  <img src="../unas-valladolid/img-acrilicas/ACRILICAS(2).jpg" alt="manicura-rusa-acrilico">
+  <img src="../unas-valladolid/img-acrilicas/ACRILICAS(3).jpg" alt="manicura-rusa-acrilico">
+  <img src="../unas-valladolid/img-acrilicas/acrilicas(4).jpg" alt="manicura-rusa-acrilico">
+  <img src="../unas-valladolid/img-acrilicas/acrilicas24.jpg" alt="manicura-rusa-acrilico">
+  <img src="../unas-valladolid/img-acrilicas/acrilicas26.jpg" alt="manicura-rusa-acrilico">
+  <img src="../unas-valladolid/img-acrilicas/acrilicas27.jpg" alt="manicura-rusa-acrilico">
+  <img src="../unas-valladolid/img-acrilicas/acrilicas35.jpg" alt="manicura-rusa-acrilico">
+
+  <h2>Galeria de videos </h2>
+    </div>
+    <div class="video-gallery">
+  <video controls autoplay loop muted poster="poster.jpg">
+    <source src="../unas-valladolid/videos/acrilcasmanicura.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video>
+  <video controls autoplay loop muted poster="poster.jpg">
+    <source src="../unas-valladolid/videos/acrilicas-flores.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video>
+  <video controls autoplay loop muted poster="poster.jpg">
+    <source src="../unas-valladolid/videos/acrilicas-negras.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video> <video controls autoplay loop muted poster="poster.jpg">
+    <source src="../unas-valladolid/videos/acrilicas-varias.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video> <video controls autoplay loop muted poster="poster.jpg">
+    <source src="../unas-valladolid/videos/acrilicas.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video> <video controls autoplay loop muted poster="poster.jpg">
+    <source src="../unas-valladolid/videos/acrilicashalloween.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video> <video controls autoplay loop muted poster="poster.jpg">
+    <source src="../unas-valladolid/videos/acrilicasmanicurarusa.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video> <video controls autoplay loop muted poster="poster.jpg">
+    <source src="../unas-valladolid/videos/acrilicasnavidad.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video> <video controls autoplay loop muted poster="poster.jpg">
+    <source src="../unas-valladolid/videos/acrilicaspablo.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video>
+</div>
+  </main>
    <footer>
    <?php
             include '../unas-valladolid/VISUAL/footer.php';
        ?>
    </footer>
-   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+    <script src="../unas-valladolid/Controles/mansory.js"></script>
     <script src="../unas-valladolid/Controles/main.js"></script>
 </body>
 </html>

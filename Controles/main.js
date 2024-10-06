@@ -60,6 +60,7 @@ productos.forEach(producto => {
   tarjeta.classList.add('card','cartajs');
 
   const imagen = document.createElement('img');
+  imagen.classList.add('img-manicuras'); // Agregar clase para dar estilo al elemento img
   imagen.src = producto.imagen;
   imagen.alt = producto.nombre; // Agregar atributo alt para accesibilidad
 
@@ -67,6 +68,7 @@ productos.forEach(producto => {
   titulo.textContent = producto.nombre;
 
   const precio = document.createElement('p');
+  precio.classList.add('precio'); 
   precio.textContent = `Precio:  
  $${producto.precio}`;
 
@@ -83,14 +85,26 @@ console.log(tarjeta);
 });
 
 const tarjetaProductos = `
-    <div class="card cartajs">
-    <img src="${productos.imagen}" alt="${productos.nombre}">
-        <h2>${productos.nombre}</h2>
-        <p>Precio: $${productos.precio}</p>
-        <p>${productos.descripcion}</p>
+    
+     <div class="card mb-3 cartajs" id="productos-card">
+    <img class="img-manicuras card-img rounded-circle" src="${productos.imagen}">
+    <h3 class="card-header">${productos.nombre}</h3>
+    <div class="card-body">
+      <h5 class="card-title precio"> Desde ${productos.precio}</h5>
     </div>
+    <p class="card-title">${productos.descripcion}</p></div>
 `;
 tarjeta.innerHTML = tarjetaProductos;
+
+//! codigo de la galeria de inicio 
+
+$(document).ready(function() {
+    $('.gallery').masonry({
+      itemSelector: '.gallery-item'
+    });
+  });
+
+
 
 
 

@@ -15,11 +15,14 @@
     <main>
     <section id="nosotros">
         <h2>Sobre Nosotros</h2>
-        <p>En [Nombre de tu tienda], nos apasiona el cuidado de tus uñas. Somos un equipo de profesionales dedicados a brindarte una experiencia única y personalizada.</p>
+        <p>En Luna Nails by Patricia, nos apasiona el cuidado de tus uñas. Somos un equipo de profesionales dedicados a brindarte una experiencia única y personalizada.</p>
         <div class="equipo">
             <h3>Nuestro Equipo</h3>
             <div class="miembro">
-                <img src="imagen1.jpg" alt="Foto de [Nombre del técnico 1]">
+            <video class="video-nosotros" controls autoplay loop muted poster="poster.jpg">
+  <source src="/../unas-valladolid/videos/acrilicas.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
                 <h4>[Nombre del técnico 1]</h4>
                 <p>Especialista en uñas acrílicas.</p>
             </div>
@@ -28,12 +31,13 @@
         </div>
         <div class="servicios">
             <h3>Nuestros Servicios</h3>
+            <img src="/../unas-valladolid/img-semi/lista-de-precios.jpg" alt="">
             <ul>
                 <li>Uñas acrílicas</li>
                 <li>Manicura y pedicura</li>
                 <li>Diseño de uñas personalizado</li>
                 </ul>
-        </div>
+        </div> 
     </section></main>
     <footer>
     <?php

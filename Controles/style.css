@@ -4,7 +4,7 @@ body {
 }
 /** stylos de el menu principal */
 ul {
-    list-style: none; /* Elimina los marcadores de lista */
+    list-style: none;
     margin: 0;
     padding: 0;
 }
@@ -70,6 +70,75 @@ nav.menu a:hover {
     justify-content: center; 
 
 }
+/* *  estilos inicio */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .gallery img {
+    width: calc(33% - 20px); /* Ajusta el ancho según el número de columnas y el espacio entre ellas */
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+  }
+  .gallery img:hover {
+    transform: scale(1.05);
+  }
+  /* galeria videos */
+  .video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  video {
+    width: calc(33% - 20px);
+    height: 200px; /* Ajusta la altura según tus necesidades */
+  }
+  
+   /** stilos car de productos */
+   .img-manicuras {
+    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: 100px;
+
+    border-radius: 50%; /* Crea el borde circular */
+  }
+  #productos-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    background-color:  #50af70;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+ #productos-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+ #productos-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+ #productos-card .precio {
+    font-weight: bold;
+    color: #007bff;
+}
+
+ #productos-card p {
+    font-size: 14px;
+    text-align: justify;
+  }
+  #productos-card:hover {
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+transform: translateY(-5px);
+}
 
 /** estilos de contacto  */
 form {
@@ -133,10 +202,23 @@ button[type="submit"] {
     color: black;
 }
 
-    /** stilos car de productos */
-    .img-manicuras {
-        width: 100px; /* Ajusta el tamaño según tus necesidades */
-        height: 100px;
-        object-fit: cover; /* La imagen llenará el contenedor manteniendo su proporción */
-        border-radius: 50%; /* Crea el borde circular */
-      }
+   
+
+/** Estilos nosotros */
+    .video-nosotros {
+         display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        top: 0;
+        left: 0;
+  
+    }
+    .servicios img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        border: 5px solid #410404;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
