@@ -13,8 +13,9 @@ include 'header.php';
 
     </header>
     <main>
+    <h2>Nuestros servicios:</h2>
     <section id="tratamientos">
-        <h2>Nuestros servicios:</h2>
+       
         <div class="tratamiento">
             <img class="img-tratamientos" src="../../unas-valladolid/img-acrilicas/valladolid.jpg" alt="uñas-acrilicas">
             <h3>Uñas acrilicas</h3>

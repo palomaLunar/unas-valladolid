@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,15 @@
     <link rel="stylesheet" href="/../unas-valladolid/Controles/style.css"> <!-- Link al archivo CSS -->
     <link rel="stylesheet" href="/../unas-valladolid/Controles/bootswatch.css">
 </head>
+
 <body>
     <header>
         <?php
-            include 'header.php';
-       ?>
+        include 'header.php';
+        ?>
     </header>
-    <main>
-<!--    
+    <main id="contenido-contacto">
+        <!--    
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -42,34 +44,37 @@
             cursor: pointer;
         }
     </style> -->
-</head>
-<body>  
+        
+        <div class="contacto-main">
+        <h1>LLamanos directamente o dejanos tu numero y nos comunicaremos contigo</h1>
+            <form action="mailto: uplmlo@hotmail.com" method="post" enctype="text/plain">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
 
-    <h1>Dejanos tu contacto y nos comunicaremos contigo</h1>
-    <br>
-    <h2>O tambien puedes comunicarte directamente con nosotros en el siguiente numero:</h2>
-    <button class="boton-llamada" onclick="location.href='tel:+34605309634'">Llamar</button>
-<button class="boton-whatsapp"onclick="location.href='https://api.whatsapp.com/send?phone=++34605309634&text=Hola%20,%20quisiera%20más%20información%20o%20pedir%20una%20cita.'">Enviar WhatsApp</button>
-    <form action="mailto: uplmlo@hotmail.com" method="post" enctype="text/plain">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Correo
+                    electrónico:</label>
+                <input type="email" id="email" name="email" required>
 
-        <label for="email">Correo  
- electrónico:</label>
-        <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
 
-        <label for="mensaje">Mensaje:</label>  
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
 
-        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+                <br>
+                <button class="boton-llamada" onclick="location.href='tel:+34605309634'">Llamar</button>
+                <br>
+                <button class="boton-whatsapp" onclick="location.href='https://api.whatsapp.com/send?phone=++34605309634&text=Hola%20,%20quisiera%20más%20información%20o%20pedir%20una%20cita.'" hr>Enviar WhatsApp</button>
+        </div>
+        </form>
 
-        <button type="submit">Enviar</button>
-    </form>  
+
     </main>
     <footer>
         <?php
-            include 'footer.php';
-       ?>
+        include 'footer.php';
+        ?>
     </footer>
-    
+
 </body>
+
 </html>

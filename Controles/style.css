@@ -1,260 +1,481 @@
 body {
-    background-image: url(/img-acrilicas/Acrílicas\ piedra\ por\ piedra.jpg);
-    background-repeat: repeat-x;
+  background-image: url(/img-acrilicas/Acrílicas\ piedra\ por\ piedra.jpg);
+  background-repeat: repeat-x;
 }
 /** stylos de el menu principal */
 header {
-    margin-bottom: 50px;
-}
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-li {
-    display: block;
-}
-a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #110f0f;
-    background-color: #923636;
+  margin-bottom: 50px;
 }
 
-a:hover {
-    background-color: #ddd;
-}
 nav.menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav.menu li {
-    display: block;
+  display: block;
 }
 
 nav.menu a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #333;
-    background-color: #f1f1f1;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  background-color: #f1f1f1;
 }
 
 nav.menu a:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 /* hasta aqui no funciona el puto navegador chueco */
 /* hasta aqui no funciona el puto navegador chueco */
-
-
-
-
-
 
 /** estilos header  */
 .container-fluid {
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
-    padding: 50px; /* Ajusta el padding para el espacio alrededor de la imagen y el botón */
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+  padding: 50px; /* Ajusta el padding para el espacio alrededor de la imagen y el botón */
 }
 
-.rounded-circle {
-    max-width: 200px; /* Ajusta el tamaño máximo de la imagen */
-}
+
+
 .container-fluid {
-    background-image: url('../img-semi/ojodegatosemi.jpg'); /* Imagen de fondo opcional */
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-
+  background-image: url("../img-semi/ojodegatosemi.jpg"); /* Imagen de fondo opcional */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 /* *  estilos inicio */
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .gallery img {
-    width: calc(33% - 20px); /* Ajusta el ancho según el número de columnas y el espacio entre ellas */
-    margin-bottom: 20px;
-    border: 2px solid #ccc;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s ease-in-out;
-  }
-  .gallery img:hover {
-    transform: scale(1.05);
-  }
-  /* galeria videos */
-  .video-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta el ancho mínimo de cada columna */
-    grid-gap: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
-  }
-  .video {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    top: 0;
-    left: 0;
-  }
-  
-  .video:hover {
-    transform: scale(1.05);
-  }
+.gallery img {
+  width: calc(
+    33% - 20px
+  ); /* Ajusta el ancho según el número de columnas y el espacio entre ellas */
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+}
+/* galeria videos */
+.video-gallery {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(200px, 1fr)
+  ); /* Ajusta el ancho mínimo de cada columna */
+  grid-gap: 2px;
+}
+.video {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+}
+
+.video:hover {
+  transform: scale(1.05);
+}
 
 
 
 
 
 
-  /* stilos cartas inicio */
-  
-  
-   /** stilos car de productos */
-   .img-manicuras {
-    width: 50%;
-    height: auto ;
-    border-radius: 50%; /* Crea el borde circular */
-  }
- #productos-card {
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    background-color: #d3a2a2;
-    border-top: 2%;
+
+
+/* stilos cartas inicio */
+
+/** stilos car de productos */
+.img-manicuras {
+  width: 50%;
+  height: auto;
+  border-radius: 50%; /* Crea el borde circular */
+}
+#productos-card {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  background-image: url("../img-semi/Semi.jpg"); /* Imagen de fondo opcional */
+  background-size: cover;
+  opacity: 0.9; 
+  border-top: 2%;
 }
 
 #productos-card div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente   
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente   
    */
-    background-color: #dacbcf;
-    border: 10px solid #ccc;
-    border-radius: 30%;
-    padding: 100px;
-    margin: 20px;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
-     transition: all 0.3s ease;
+  background-color: #dacbcf;
+  border: 10px solid #ccc;
+  border-radius: 30%;
+  padding: 100px;
+  margin: 20px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
 }
 #productos-card img {
-  
-    width: 50%;
-    height: auto ;
-    border-radius: 50%; /* Crea el borde circular */
+  width: 50%;
+  height: auto;
+  border-radius: 50%; /* Crea el borde circular */
 }
 
- #productos-card h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
+#productos-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
- #productos-card .precio {
-    
-    font-weight: bold;
-    color: #770202;
-  
+#productos-card .precio {
+  font-weight: bold;
+  color: #770202;
 }
 
- #productos-card p {
-    font-size: 3vh;
-    text-align: left; 
-  }
-  #productos-card:hover {
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-transform: translateY(-5px);
+#productos-card p {
+  font-size: 3vh;
+  text-align: left;
 }
+#productos-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * ESTILOS DE TRATAMIENTOS */
+/** stilos car de productos */
+#tratamientos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tratamiento {
+  background-image: linear-gradient(
+    to bottom,
+    #ca231d 0%,
+    #dd6d69a2 50%,
+    #facdcde8 100%
+  );
+  border-image: linear-gradient(
+      to right,
+      rgba(131, 74, 74, 0),
+      rgb(236, 234, 234)
+    )
+    1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10vh;
+  text-align: center;
+  margin: 5vh;
+  border-radius: 20%;
+}
+
+.tratamiento img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** estilos de contacto  */
-form {
-    width: 300px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
+/* formulario.css */
+.contacto-main {
+  background-image: url("/../unas-valladolid/img-acrilicas/acrilicas30.jpg");
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: #dacbcf;
+}
+.contacto-main h1{
+    font-size: 34px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius:  70%;
+    font-weight: bold;
+    color: #ffffffbd;
+    background-image: linear-gradient(
+        to bottom,
+        #ca231d 0%,
+        #dd6d69a2 50%,
+        #f12d2d86 100%
+      );
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contacto-main form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.contacto-main label {
+    background-image: linear-gradient(
+        to bottom,
+        #ca231d 0%,
+        #dd6d69a2 50%,
+        #f12d2d86 100%
+      );
+      border-radius: 50%;
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff;
+  text-align: center;
 }
 input[type="text"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
+.contacto-main textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
-button[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;  
+.contacto-main button[type="submit"] {
+  font-size: 18px;
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    #ca231d 0%,
+    #dd6d69a2 50%,
+    #f12d2d86 100%
+  );
 
-    border-radius: 4px;
-    cursor: pointer;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
-.boton-llamada, .boton-whatsapp {
-    padding: 10px 20px;
-    border: none;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .boton-llamada {
-    background-color: #3498db;
-    border-radius: 50%;
-    background-image: url('icono-telefono.png');
-    background-repeat: no-repeat;
-    background-position: left center;
-    padding-left: 25px;
-  }
-  
-  .boton-whatsapp {
-    background-color: #25d366;
-    border-radius: 10px;
-    background-image: url('icono-whatsapp.png');
-    background-repeat: no-repeat;
-    background-position: left center;
-    padding-left: 25px;
-  }
+
+.boton-llamada,
+.boton-whatsapp {
+  font-size: 20px;
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.boton-llamada {
+  margin: 10px;
+  background-color: #3498db;
+  border-radius: 10px;
+  background-image: url("/../unas-valladolid/img-pies/llamaada.png");
+  background-repeat: repeat;
+  background-position: center;
+  padding-left: 25px;
+}
+
+.boton-whatsapp {
+  color: #110f0f;
+  background-color: #25d366;
+  border-radius: 10px;
+  background-image: url("/../unas-valladolid/img-pies/whats.jpeg");
+  background-repeat: repeat;
+  background-position: center;
+  padding-left: 25px;
+}
+
+
+
+
+
+
+
 
 
 
 
 /** stilos footer */
 #footer {
-    background-image: url('../img-semi/Semi.jpg'); /* Imagen de fondo opcional */
-    background-size: cover;
-    background-position: center;
+    margin-top: 10%;
+  background-image: url("../img-semi/Semi.jpg"); /* Imagen de fondo opcional */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+#footer p {
+  font-size: 16px;
+  text-align: center;
+}
+nav.links-footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav.links-footer li {
+    display: block;
+  }
+  
+  nav.links-footer a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #ec898921;
+  }
+  
+  nav.links-footer a:hover {
+    background-color: #ddd;
+  }
+ div.contacto ul {
+    list-style: none;
+    margin: 1vh;
+    padding: 1vh;
+  }
+  
+ div.contacto li {
+    display: block;
+  }
+  
+ div.contacto a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #030202;
+   
+  }
+  
+ div.contacto a:hover {
+    color: #110f0f;
+    text-shadow: #110f0f;
+    background-color: #ddd;
+  }
+  div.contacto {
+    background-color: #ca1f1f5d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  
+
+/** Estilos nosotros */
+
+#nosotros {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
-    color: black;
+    justify-content: center;
+    margin-top: 10vh;
+    background-image: url("../img-semi/Semi.jpg"); /* Imagen de fondo opcional */
+    background-size: cover;
+    opacity: 0.9; 
+    background-position: center;
+    color: white;
 }
 
-   
+#nosotros h1 {
+  font-size: 34px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffffbd;
+  background-image: linear-gradient(
+      to bottom,
+      #aa7e7c73 0%,
+      #dd6d69a2 50%,
+      #f12d2d86 100%
+    );
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
 
-/** Estilos nosotros */
-    .video-nosotros {
-         display: block;
-        margin: 0 auto;
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-        top: 0;
-        left: 0;
-  
-    }
-    .servicios img {
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-        border: 5px solid #410404;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-   
+#nosotros img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #410404;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10%;
+}
+
+#nosotros h2 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffffbd;
+    background-image: linear-gradient(
+        to bottom,
+        #f7a19c73 0%,
+        #dd6d69a2 50%,
+        #f19c9c86 100%
+      );
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#nosotros p {
+    background-image: linear-gradient(
+        to bottom,
+        #df787273 0%,
+        #dd6d69a2 50%,
+        #f19c9c86 100%
+      ); 
+  font-size: 20px;
+  text-align: center;
+}
+.servicios img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 5px solid #410404;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10%;
+}
