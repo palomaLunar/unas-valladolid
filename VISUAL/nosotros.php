@@ -13,6 +13,39 @@
        ?>
     </header>
     <main>
+    <h2>Galeria de videos </h2>
+    <div class="video-gallery">
+  <video class= "video" controls autoplay loop muted poster="poster.jpg">
+    <source src="/../unas-valladolid/videos/acrilcasmanicura.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video>
+  <video class= "video" controls autoplay loop muted poster="poster.jpg">
+    <source src="/../unas-valladolid/videos/acrilicas-flores.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video>
+  <video class= "video" controls autoplay loop muted poster="poster.jpg">
+    <source src="/../unas-valladolid/videos/acrilicas-negras.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video> <video class= "video" controls autoplay loop muted poster="poster.jpg">
+    <source src="/../unas-valladolid/videos/acrilicas-varias.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video> <video class= "video" controls autoplay loop muted poster="poster.jpg">
+    <source src="/../unas-valladolid/videos/acrilicas.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video> <video class= "video" controls autoplay loop muted poster="poster.jpg">
+    <source src="/../unas-valladolid/videos/acrilicashalloween.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video> <video class= "video" controls autoplay loop muted poster="poster.jpg">
+    <source src="/../unas-valladolid/videos/acrilicasmanicurarusa.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video> <video class= "video" controls autoplay loop muted poster="poster.jpg">
+    <source src="/../unas-valladolid/videos/acrilicasnavidad.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video> <video class= "video" controls autoplay loop muted poster="poster.jpg">
+    <source src="/../unas-valladolid/videos/acrilicaspablo.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video>
+</div>
     <section id="nosotros">
         <h2>Sobre Nosotros</h2>
         <p>En Luna Nails by Patricia, nos apasiona el cuidado de tus uñas. Somos un equipo de profesionales dedicados a brindarte una experiencia única y personalizada.</p>

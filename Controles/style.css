@@ -89,36 +89,65 @@ nav.menu a:hover {
   }
   /* galeria videos */
   .video-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta el ancho mínimo de cada columna */
+    grid-gap: 2px;
+
+  }
+  .video {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
   }
   
-  video {
-    width: calc(33% - 20px);
-    height: 200px; /* Ajusta la altura según tus necesidades */
+  .video:hover {
+    transform: scale(1.05);
   }
+
+
+
+
+
+
+  /* stilos cartas inicio */
+  
   
    /** stilos car de productos */
    .img-manicuras {
-    width: 100px; /* Ajusta el tamaño según tus necesidades */
-    height: 100px;
-
+    width: 50%;
+    height: auto ;
     border-radius: 50%; /* Crea el borde circular */
   }
   #productos-card {
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin: 20px;
-    background-color:  #50af70;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    background-color: #d3a2a2;
 }
 
- #productos-card img {
-    max-width: 100%;
-    height: auto;
+#productos-card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente   
+   */
+    background-color: #dacbcf;
+    border: 10px solid #ccc;
+    border-radius: 30%;
+    padding: 100px;
+    margin: 20px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+     transition: all 0.3s ease;
+}
+#productos-card img {
+  
+    width: 50%;
+    height: auto ;
+    border-radius: 50%; /* Crea el borde circular */
 }
 
  #productos-card h3 {
@@ -127,13 +156,15 @@ nav.menu a:hover {
 }
 
  #productos-card .precio {
+    
     font-weight: bold;
-    color: #007bff;
+    color: #770202;
+  
 }
 
  #productos-card p {
-    font-size: 14px;
-    text-align: justify;
+    font-size: 3vh;
+    text-align: left; 
   }
   #productos-card:hover {
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -222,3 +253,4 @@ button[type="submit"] {
         border: 5px solid #410404;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
+   
