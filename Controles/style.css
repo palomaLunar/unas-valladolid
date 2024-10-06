@@ -3,6 +3,9 @@ body {
     background-repeat: repeat-x;
 }
 /** stylos de el menu principal */
+header {
+    margin-bottom: 50px;
+}
 ul {
     list-style: none;
     margin: 0;
@@ -122,11 +125,12 @@ nav.menu a:hover {
     height: auto ;
     border-radius: 50%; /* Crea el borde circular */
   }
-  #productos-card {
+ #productos-card {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
     background-color: #d3a2a2;
+    border-top: 2%;
 }
 
 #productos-card div {

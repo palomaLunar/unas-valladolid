@@ -26,9 +26,9 @@
     <div class="card mb-3 cartajs" id="productos-card">
 
       <div class="card-body">
-        <img class="img-manicuras rounded-circle" src="http://localhost/unas-valladolid/img-acrilicas/1Acr%c3%adlicasXL.jpg" alt="acrilicas">
+        <img class="img-manicuras" src="http://localhost/unas-valladolid/img-acrilicas/1Acr%c3%adlicasXL.jpg" alt="acrilicas">
         <h3 class="card-header">Uñas acrilicas</h3>
-        <h5 class="card-title"> Desde 40€</h5>
+        <h5 class="card-title precio"> Desde 40€</h5>
 
         <p class="card-title"> aqui va la descripcion</p>
       </div>
