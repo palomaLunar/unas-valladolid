@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">>
 <head>
     <title>Nuestros Tratamientos</title>
     <link rel="stylesheet" href="/../unas-valladolid/Controles/style.css"> <!-- Link al archivo CSS -->

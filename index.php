@@ -1,7 +1,7 @@
 <!-- Aqui vamos a mostrar el contenido principal de la pagina, es la pagina por defecto y es el apartado uñas acrilicas en nuestro menu principal  -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
