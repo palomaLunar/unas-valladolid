@@ -12,7 +12,7 @@ include 'header.php';
 ?>
 
     </header>
-    <main>
+    <main id="main-tratamientos">
     <h2>Nuestros servicios:</h2>
     <section id="tratamientos">
        
@@ -43,9 +43,13 @@ Un aspecto impecable: La combinación de ambas técnicas te proporciona unas uñ
 En resumen:
 
 La manicura rusa prepara tus uñas para recibir las uñas acrílicas, asegurando un resultado duradero y de alta calidad. Si buscas unas uñas hermosas y resistentes, esta combinación es perfecta para ti.</p>
+<button class="boton-llamada" onclick="location.href='tel:+34605309634'">Pedir cita</button>
+                <br>
+               
+      </div>
         </div>
         <div class="tratamiento">
-            <img src="../../unas-valladolid/img-semi/lista-de-precios.jpg" alt="relleno de Acrilico">
+            <img src="../../unas-valladolid/img-acrilicas/manicura23.jpg" alt="relleno de Acrilico">
             <h3>Relleno de Uñas Acrílicas con Manicura Rusa</h3>
             <p>Imagina que tus uñas acrílicas son una casa y el relleno es como darle una manita de pintura y arreglar cualquier detalle que necesite. </p>
 
@@ -75,6 +79,9 @@ En resumen:
 
 El relleno de uñas acrílicas con manicura rusa es un procedimiento sencillo y rápido que te permite mantener tus uñas perfectas durante más tiempo. Es como darle una segunda vida a tus uñas acrílicas y asegurarte de que siempre luzcan impecables.</p>
         </div>
+        <button class="boton-llamada" onclick="location.href='tel:+34605309634'">Pedir cita</button>
+                <br>
+              
         <div class="tratamiento">
             <img src="../../unas-valladolid/img-semi/semi5.jpg" alt="semipermanente">
             <h3>Semipermanente en manos</h3>
@@ -110,7 +117,8 @@ La principal diferencia es la preparación de la uña. En la manicura rusa se re
 En resumen:
 
 La manicura rusa con esmalte semipermanente es la opción ideal para aquellas personas que buscan unas uñas impecables, duraderas y con un aspecto profesional. Combina la belleza del esmalte semipermanente con los beneficios de una manicura cuidadosa y meticulosa.</p>
-        </div>
+        </div>       <button class="boton-llamada" onclick="location.href='tel:+34605309634'">Pedir cita</button>
+        <br>
         <div class="tratamiento">
             
             <img src="../../unas-valladolid/img-semi/manicurahombre.png" alt="recostruccion-de-uñas">
@@ -143,8 +151,10 @@ La duración de una manicura rusa puede variar, pero generalmente dura alrededor
 
 En resumen, la manicura rusa es un tratamiento de lujo para tus uñas que te ayudará a lucir unas manos hermosas y saludables. ¡Anímate a probarla!</p>
         </div>
+        <button class="boton-llamada" onclick="location.href='tel:+34605309634'">Pedir cita</button>
+        <br>
         <div class="tratamiento">
-            <img src="../../unas-valladolid/img-semi/lista-de-precios.jpg" alt="antes">
+            <img src="../../unas-valladolid/img-acrilicas/valladolid.jpg" alt="retirar-acrilico">
             <
             <h3>Retirar el acrilico</h3>
             <p>Quitar las uñas acrílicas es un proceso que requiere cuidado para evitar dañar la uña natural. Aunque existen diferentes métodos, el más común y recomendado es el siguiente:
@@ -170,8 +180,10 @@ No intentes arrancar el acrílico: Esto puede dañar la uña natural.
 No utilices herramientas afiladas: Puedes lastimarte.
 </p>
         </div>
+        <button class="boton-llamada" onclick="location.href='tel:+34605309634'">Pedir cita</button>
+        <br>
         <div class="tratamiento">
-        <img src="../../unas-valladolid/img-semi/lista-de-precios.jpg" alt="">
+        <img src="../../unas-valladolid/img-semi/semiperme.jpg" alt="semipermanente">
             <h3>Retirar el esmalte semmipermanente</h3>
             <p>¿Quieres quitar tu esmalte semipermanente? ¡Te explico cómo lo hacemos!
 
@@ -199,8 +211,10 @@ Dale un descanso a tus uñas: Si quieres volver a colocarte esmalte semipermanen
 
 Con este tratamiento, tus uñas volverán a su estado natural y podrás disfrutar de la sensación de tener unas uñas suaves y saludables.</p>
         </div>
+        <button class="boton-llamada" onclick="location.href='tel:+34605309634'">Pedir cita</button>
+        <br>
         <div class="tratamiento">
-        <img src="../../unas-valladolid/img-pies/Manos_y_pies.jpg alt="">
+        <img src="../../unas-valladolid/img-pies/pedicura.jpg" alt="pedicura">
             <h3>Pedicura completa </h3>
             <p> ¡Mima tus pies!
 
@@ -232,8 +246,10 @@ Se recomienda realizar una pedicura completa cada 4-6 semanas para mantener tus 
 
 Tus pies te lo agradecerán</p>
         </div>
+        <button class="boton-llamada" onclick="location.href='tel:+34605309634'">Pedir cita</button>
+        <br>
         <div class="tratamiento">
-        <img src="../../unas-valladolid/img-pies/manosypies(1).jpg" alt="semipermanente pies">
+        <img src="../../unas-valladolid/img-semi/semipermante98.jpg" alt="semipermanente pies">
             <h3>Esmaltado Semipermanente en pies</h3>
             <p>¿Estás cansada de que tu esmalte de uñas se desgaste rápidamente? El esmaltado semipermanente es la solución perfecta para ti. Imagina tener unas uñas de los pies impecables, brillantes y duraderas durante semanas.
 
@@ -264,22 +280,58 @@ Hidrata tus pies: Aplica crema hidratante regularmente para mantener tus pies su
 Retira el esmalte correctamente: No intentes quitarlo por tu cuenta, ya que podrías dañar tus uñas. Lo mejor es acudir a un profesional.
 En resumen, el esmaltado semipermanente en pies es una excelente opción para lucir unas uñas perfectas y duraderas. ¡Disfruta de tus pies sin preocupaciones!</p>
         </div>
+        <button class="boton-llamada" onclick="location.href='tel:+34605309634'">Pedir cita</button>
+        <br>
         <div class="tratamiento">
-        <img src="../../unas-valladolid/reconstrucciones/Uñas-mordidas antes-y-despues(1).jpg" alt="reconstruccion uñas de las manos">
+        <img src="../../unas-valladolid/reconstrucciones/Un_antes-y-despues-en-uñas-mordidas.jpg" alt="reconstruccion uñas de las manos">
             <h3>Uña rota</h3>
             <p>Sabemos que los accidentes siempre ocurren en el peor momento, un golpe muy fuerte o la presion de un objeto pesado puede causar el rompimiento de una uña, asi que para evitar, posibles infecciones o humedades que se pueden generar al dejar la uña con el acrilico al descubierto, ven con nosotras y te lo arreglamos en un momento</p>
         </div>
+        <button class="boton-llamada" onclick="location.href='tel:+34605309634'">Pedir cita</button>
+        <br>
         <div class="tratamiento">
-        <img src="../../unas-valladolid/img-acrilicas/Acrílicas XL(1).jpg" alt="">
+        <img src="../../unas-valladolid/img-acrilicas/AcrílicasXL.jpg" alt="acrilicas">
             <h3>Decoracion de uña</h3>
             <p>Queremos hacer de tu idea un sueño hecho relidad, muestranos tu diseño o idea, nosotras te lo hacemos realidad</p>
         </div>
+        <button class="boton-llamada" onclick="location.href='tel:+34605309634'">Pedir cita</button>
+        <br>
         <div class="tratamiento">
         <img src="../../unas-valladolid/reconstrucciones/trasfromacion-uñapie-comparacion.jpg" alt="">
             <h3>Reconstruccion uña de los dedos de los pies</h3>
             <p>recostruccion y alargamiento (si asi lo desea con coste extra 5€), tratamiento especial para personas afines a golpes por calzado, heridas antiguas, etc.</p>
         </div>
-    </section></main>
+        <button class="boton-llamada" onclick="location.href='tel:+34605309634'">Pedir cita</button>
+        <br>
+    </section>
+    <h2>Galeria de semipermante</h2>
+    <div class="gallery">
+
+      <img src="../../unas-valladolid/img-semi/semiperme.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/semipermante98.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/semipermanete3.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/semipermanente_en_manos_y_pies.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/semipermanente5.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/semipermanente45.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/semipermanente4.jpg"
+        alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/Semipermanente23.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/Semipermanente.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/Semi.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/ojodegatosemi.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/manicurahombre.png" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/1Semipermanente.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/Semipermanent.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/Semipermanen.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/Semipermane.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/Semiper.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/Semiperm.jpg" alt="manicura-rusa-semipermanate">
+
+    </div>
+    <button class="boton-llamada" onclick="location.href='tel:+34605309634'">Pedir cita</button>
+                <br>
+                <button class="boton-whatsapp" onclick="location.href='https://api.whatsapp.com/send?phone=++34605309634&text=Hola%20,%20quisiera%20más%20información%20o%20pedir%20una%20cita.'" hr>Pedir cita</button>
+      </div></main>
     <footer>
     <?php
 include './footer.php';

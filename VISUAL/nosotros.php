@@ -30,6 +30,7 @@
                 <img src="/../unas-valladolid/img-pies/nosotros-manicura.jfif" alt="equipodetrabajo">
                 <p> "Creemos que cada cliente es único, por eso nuestro equipo se dedica a ofrecerte un servicio personalizado y adaptado a tus necesidades. Nos preocupamos por cuidar cada detalle para que te sientas cómoda y relajada durante tu visita.".</p>
                 <p>"Nos mantenemos constantemente actualizados en las últimas tendencias y técnicas del mundo de las uñas. Asistimos a cursos y talleres para ofrecerte los mejores tratamientos y productos."</p>
+               
                 <hr>
             </div>
 
@@ -37,6 +38,7 @@
             <div class="servicios">
                 <h2>Nuestros Servicios</h2>
                 <img src="/../unas-valladolid/img-semi/lista-de-precios.jpg" alt="">
+                <a href="/../unas-valladolid/VISUAL/tratamientos.php">Acerca de Nuestros Tratamientos</a>
             
             </div>
         </section>
@@ -47,33 +49,45 @@
         <h2>Galeria de videos </h2>
         <div class="video-gallery">
             <video class="video" controls autoplay loop muted poster="poster.jpg">
-                <source src="/../unas-valladolid/videos/acrilcasmanicura.mp4" type="video/mp4">
+                <source src="/../unas-valladolid/videos/uñasmordidasreconstruccion.mp4" type="video/mp4">
                 Tu navegador no soporta la reproducción de video.
             </video>
             <video class="video" controls autoplay loop muted poster="poster.jpg">
-                <source src="/../unas-valladolid/videos/acrilicas-flores.mp4" type="video/mp4">
+                <source src="/../unas-valladolid/videos/uñasacrilicas3.mp4" type="video/mp4">
                 Tu navegador no soporta la reproducción de video.
             </video>
             <video class="video" controls autoplay loop muted poster="poster.jpg">
-                <source src="/../unas-valladolid/videos/acrilicas-negras.mp4" type="video/mp4">
+                <source src="/../unas-valladolid/videos/trabajosdeotra-antesydespues.mp4" type="video/mp4">
                 Tu navegador no soporta la reproducción de video.
             </video> <video class="video" controls autoplay loop muted poster="poster.jpg">
-                <source src="/../unas-valladolid/videos/acrilicas-varias.mp4" type="video/mp4">
+                <source src="/../unas-valladolid/videos/semipermanterosa.mp4" type="video/mp4">
                 Tu navegador no soporta la reproducción de video.
             </video> <video class="video" controls autoplay loop muted poster="poster.jpg">
-                <source src="/../unas-valladolid/videos/acrilicas.mp4" type="video/mp4">
+                <source src="/../unas-valladolid/videos/semipermante-laureles.mp4" type="video/mp4">
                 Tu navegador no soporta la reproducción de video.
             </video> <video class="video" controls autoplay loop muted poster="poster.jpg">
-                <source src="/../unas-valladolid/videos/acrilicashalloween.mp4" type="video/mp4">
+                <source src="/../unas-valladolid/videos/semipermante-antes-y-despues.mp4" type="video/mp4">
                 Tu navegador no soporta la reproducción de video.
             </video> <video class="video" controls autoplay loop muted poster="poster.jpg">
-                <source src="/../unas-valladolid/videos/acrilicasmanicurarusa.mp4" type="video/mp4">
+                <source src="/../unas-valladolid/videos/semipermanentepaloma.mp4" type="video/mp4">
                 Tu navegador no soporta la reproducción de video.
             </video> <video class="video" controls autoplay loop muted poster="poster.jpg">
-                <source src="/../unas-valladolid/videos/acrilicasnavidad.mp4" type="video/mp4">
+                <source src="/../unas-valladolid/videos/semipermanente.mp4" type="video/mp4">
                 Tu navegador no soporta la reproducción de video.
             </video> <video class="video" controls autoplay loop muted poster="poster.jpg">
                 <source src="/../unas-valladolid/videos/acrilicaspablo.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de video.
+            </video>
+            </video> <video class="video" controls autoplay loop muted poster="poster.jpg">
+                <source src="/../unas-valladolid/videos/manicuramasculina.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de video.
+            </video>
+            </video> <video class="video" controls autoplay loop muted poster="poster.jpg">
+                <source src="/../unas-valladolid/videos/manicura-acrilicas.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de video.
+            </video>
+            </video> <video class="video" controls autoplay loop muted poster="poster.jpg">
+                <source src="/../unas-valladolid/videos/AcrílicasXL.mp4" type="video/mp4">
                 Tu navegador no soporta la reproducción de video.
             </video>
         </div>

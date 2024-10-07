@@ -26,7 +26,7 @@
                 <li><a href="https://www.instagram.com/unas_by_patricia_olmedo/">Instagram</a></li>
                 
             </ul>
-            <p>&copy; 2023 Luna Nails by Patricia. Todos los derechos reservados.</p>
+            <p>&copy; 2023 Luna Nails by Patricia. VALLADOLID, ESPAÑA.</p>
         </div>
        
          

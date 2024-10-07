@@ -64,7 +64,36 @@
                 <button class="boton-llamada" onclick="location.href='tel:+34605309634'">Llamar</button>
                 <br>
                 <button class="boton-whatsapp" onclick="location.href='https://api.whatsapp.com/send?phone=++34605309634&text=Hola%20,%20quisiera%20más%20información%20o%20pedir%20una%20cita.'" hr>Enviar WhatsApp</button>
+
         </div>
+        <h2>Galeria de semipermante</h2>
+    <div class="gallery">
+
+      <img src="../../unas-valladolid/img-semi/semiperme.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/semipermante98.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/semipermanete3.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/semipermanente_en_manos_y_pies.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/semipermanente5.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/semipermanente45.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/semipermanente4.jpg"
+        alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/Semipermanente23.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/Semipermanente.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/Semi.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/ojodegatosemi.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/manicurahombre.png" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/1Semipermanente.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/Semipermanent.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/Semipermanen.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/Semipermane.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/Semiper.jpg" alt="manicura-rusa-semipermanate">
+      <img src="../../unas-valladolid/img-semi/Semiperm.jpg" alt="manicura-rusa-semipermanate">
+
+    </div>
+    <button class="boton-llamada" onclick="location.href='tel:+34605309634'">Pedir cita</button>
+                <br>
+                <button class="boton-whatsapp" onclick="location.href='https://api.whatsapp.com/send?phone=++34605309634&text=Hola%20,%20quisiera%20más%20información%20o%20pedir%20una%20cita.'" hr>Pedir cita</button>
+      </div>
         </form>
 
 

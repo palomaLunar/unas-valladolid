@@ -30,14 +30,20 @@
         <h3 class="card-header">Uñas acrilicas</h3>
         <h5 class="card-title precio"> Desde 40€</h5>
 
-        <p class="card-title"> aqui va la descripcion</p>
+        <p class="card-title"> Nuestra especialidad, uñas esculpidas en acrilico, con manicura rusa, no dudes en mostarnos tu idea y nosotras la convertimos en realidad. </p>
+        <button class="boton-llamada" onclick="location.href='tel:+34605309634'">Pedir cita</button>
+                <br>
+                <button class="boton-whatsapp" onclick="location.href='https://api.whatsapp.com/send?phone=++34605309634&text=Hola%20,%20quisiera%20más%20información%20o%20pedir%20una%20cita.'" hr>Enviar WhatsApp</button>
       </div>
     </div>
     <!-- <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
       <rect width="100%" height="100%" fill="#868e96"></rect>
       <text x="50%" y="50%" fill="#dee2e6" dy=".3em"><img src="/unas-valladolid/img-acrilicas/ACRILICAS punta de lanza.jpg" alt="puntadelanza">punta de lanza</text>
     </svg> -->
-
+    <button class="boton-llamada" onclick="location.href='tel:+34605309634'">Pedir cita</button>
+                <br>
+                <button class="boton-whatsapp" onclick="location.href='https://api.whatsapp.com/send?phone=++34605309634&text=Hola%20,%20quisiera%20más%20información%20o%20pedir%20una%20cita.'" hr>Enviar WhatsApp</button>
+      </div>
 
     <h2>Galeria de acrilicas</h2>
     <div class="gallery">
@@ -61,39 +67,45 @@
 
 
     </div>
+    <button class="boton-llamada" onclick="location.href='tel:+34605309634'">Pedir cita</button>
+                <br>
+                <button class="boton-whatsapp" onclick="location.href='https://api.whatsapp.com/send?phone=++34605309634&text=Hola%20,%20quisiera%20más%20información%20o%20pedir%20una%20cita.'" hr>Pedir cita</button>
+      </div>
     <h2>Galeria de videos </h2>
     <div class="video-gallery">
-      <video class="video" controls autoplay loop muted poster="poster.jpg">
+      <video class="video" controls autoplay loop muted poster="../unas-valladolid/img-semi/Semi.jpg">
         <source src="../unas-valladolid/videos/acrilcasmanicura.mp4" type="video/mp4">
         Tu navegador no soporta la reproducción de video.
       </video>
-      <video class="video" controls autoplay loop muted poster="poster.jpg">
+      <video class="video" controls autoplay loop muted poster="../unas-valladolid/img-semi/Semi.jpg">
         <source src="../unas-valladolid/videos/acrilicas-flores.mp4" type="video/mp4">
         Tu navegador no soporta la reproducción de video.
       </video>
-      <video class="video" controls autoplay loop muted poster="poster.jpg">
+      <video class="video" controls autoplay loop muted poster="../unas-valladolid/img-semi/Semi.jpg">
         <source src="../unas-valladolid/videos/acrilicas-negras.mp4" type="video/mp4">
         Tu navegador no soporta la reproducción de video.
-      </video> <video class="video" controls autoplay loop muted poster="poster.jpg">
+      </video> <video class="video" controls autoplay loop muted poster="../unas-valladolid/img-semi/Semi.jpg">
         <source src="../unas-valladolid/videos/acrilicas-varias.mp4" type="video/mp4">
         Tu navegador no soporta la reproducción de video.
-      </video> <video class="video" controls autoplay loop muted poster="poster.jpg">
+      </video> <video class="video" controls autoplay loop muted poster="../unas-valladolid/img-semi/Semi.jpg">
         <source src="../unas-valladolid/videos/acrilicas.mp4" type="video/mp4">
         Tu navegador no soporta la reproducción de video.
-      </video> <video class="video" controls autoplay loop muted poster="poster.jpg">
+      </video> <video class="video" controls autoplay loop muted poster="../unas-valladolid/img-semi/Semi.jpg">
         <source src="../unas-valladolid/videos/acrilicashalloween.mp4" type="video/mp4">
         Tu navegador no soporta la reproducción de video.
-      </video> <video class="video" controls autoplay loop muted poster="poster.jpg">
+      </video> <video class="video" controls autoplay loop muted poster="../unas-valladolid/img-semi/Semi.jpg">
         <source src="../unas-valladolid/videos/acrilicasmanicurarusa.mp4" type="video/mp4">
         Tu navegador no soporta la reproducción de video.
-      </video> <video class="video" controls autoplay loop muted poster="poster.jpg">
+      </video> <video class="video" controls autoplay loop muted poster="../unas-valladolid/img-semi/Semi.jpg">
         <source src="../unas-valladolid/videos/acrilicasnavidad.mp4" type="video/mp4">
         Tu navegador no soporta la reproducción de video.
-      </video> <video class="video" controls autoplay loop muted poster="poster.jpg">
-        <source src="../unas-valladolid/videos/acrilicaspablo.mp4" type="video/mp4">
-        Tu navegador no soporta la reproducción de video.
       </video>
+
     </div>
+    <button class="boton-llamada" onclick="location.href='tel:+34605309634'">Pedir cita</button>
+                <br>
+                <button class="boton-whatsapp" onclick="location.href='https://api.whatsapp.com/send?phone=++34605309634&text=Hola%20,%20quisiera%20más%20información%20o%20pedir%20una%20cita.'" hr>Enviar WhatsApp</button>
+      </div>
   </main>
   <footer>
     <?php

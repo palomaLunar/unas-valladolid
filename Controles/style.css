@@ -2,6 +2,7 @@ body {
   background-image: url(/img-acrilicas/Acrílicas\ piedra\ por\ piedra.jpg);
   background-repeat: repeat-x;
 }
+/**! estilos header  */
 /** stylos de el menu principal */
 header {
   margin-bottom: 50px;
@@ -28,10 +29,9 @@ nav.menu a {
 nav.menu a:hover {
   background-color: #ddd;
 }
-/* hasta aqui no funciona el puto navegador chueco */
-/* hasta aqui no funciona el puto navegador chueco */
 
-/** estilos header  */
+
+
 .container-fluid {
   background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
   padding: 50px; /* Ajusta el padding para el espacio alrededor de la imagen y el botón */
@@ -40,15 +40,26 @@ nav.menu a:hover {
 
 
 .container-fluid {
-  background-image: url("../img-semi/ojodegatosemi.jpg"); /* Imagen de fondo opcional */
+  background-image: url("../img-semi/Semiperman.jpg"); /* Imagen de fondo opcional */
   background-size: cover;
+  opacity: 0.9;
   background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-/* *  estilos inicio */
+
+
+
+
+
+
+
+
+
+/* *! estilos inicio */
+/* galeria d fotos y videos */
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -88,16 +99,9 @@ nav.menu a:hover {
 
 .video:hover {
   transform: scale(1.05);
-}
 
 
-
-
-
-
-
-
-/* stilos cartas inicio */
+  }  stilos cartas inicio
 
 /** stilos car de productos */
 .img-manicuras {
@@ -169,8 +173,16 @@ nav.menu a:hover {
 
 
 
-/* * ESTILOS DE TRATAMIENTOS */
+/* *! ESTILOS DE TRATAMIENTOS */
 /** stilos car de productos */
+#main-tratamientos {
+    background-image: url("../img-semi/ojodegatosemi.jpg"); /* Imagen de fondo opcional */
+    background-size: cover;
+    opacity: 0.9;
+    border-top: 2%;
+    margin: 4%;;
+}
+
 #tratamientos {
   display: flex;
   flex-direction: column;
@@ -180,8 +192,8 @@ nav.menu a:hover {
 .tratamiento {
   background-image: linear-gradient(
     to bottom,
-    #ca231d 0%,
-    #dd6d69a2 50%,
+    #ca231dad 0%,
+    #dd6d69c0 50%,
     #facdcde8 100%
   );
   border-image: linear-gradient(
@@ -202,6 +214,10 @@ nav.menu a:hover {
   height: auto;
   border-radius: 50%;
 }
+.tratamiento p {
+    font-size: 100%;
+  color: #030202;
+}
 
 
 
@@ -220,8 +236,7 @@ nav.menu a:hover {
 
 
 
-
-/** estilos de contacto  */
+/**! estilos de contacto  */
 /* formulario.css */
 .contacto-main {
   background-image: url("/../unas-valladolid/img-acrilicas/acrilicas30.jpg");
@@ -229,6 +244,7 @@ nav.menu a:hover {
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   color: #dacbcf;
+  margin-bottom: 10%;
 }
 .contacto-main h1{
     font-size: 34px;
@@ -238,9 +254,9 @@ nav.menu a:hover {
     color: #ffffffbd;
     background-image: linear-gradient(
         to bottom,
-        #ca231d 0%,
-        #dd6d69a2 50%,
-        #f12d2d86 100%
+        #0c6b448a 0%,
+        #2f8f969f 50%,
+        #94e6c486 100%
       );
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     padding: 10px;
@@ -252,19 +268,21 @@ nav.menu a:hover {
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ccc;
+  margin-bottom: 5%;
 }
 .contacto-main label {
     background-image: linear-gradient(
         to bottom,
-        #ca231d 0%,
-        #dd6d69a2 50%,
-        #f12d2d86 100%
+        #0c6b448a 0%,
+        #2f8f969f 50%,
+        #94e6c486 100%
       );
       border-radius: 50%;
   display: block;
   margin-bottom: 5px;
-  color: #ffffff;
+  color: #030303;
   text-align: center;
+  font-size: 25px;
 }
 input[type="text"],
 .contacto-main textarea {
@@ -279,12 +297,12 @@ input[type="text"],
   width: 100%;
   background-image: linear-gradient(
     to bottom,
-    #ca231d 0%,
-    #dd6d69a2 50%,
-    #f12d2d86 100%
+    #0c6b448a 0%,
+    #2f8f969f 50%,
+    #94e6c486 100%
   );
 
-  color: white;
+  color: rgb(12, 11, 11);
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
@@ -331,7 +349,113 @@ input[type="text"],
 
 
 
-/** stilos footer */
+
+
+
+/**! Estilos nosotros */
+
+#nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    background-image: url("../img-semi/Semi.jpg"); /* Imagen de fondo opcional */
+    background-size: cover;
+    opacity: 0.9; 
+    background-position: center;
+    color: white;
+    padding: 20%;
+}
+
+#nosotros h1 {
+  font-size: 34px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffffbd;
+  background-image: linear-gradient(
+      to bottom,
+      #a3565273 0%,
+      #dd6d69a2 50%,
+      #f12d2d86 100%
+    );
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+ 
+}
+
+#nosotros img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #410404;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10%;
+}
+
+#nosotros h2 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffffbd;
+    background-image: linear-gradient(
+        to bottom,
+        #f7a19c73 0%,
+        #dd6d69a2 50%,
+        #f19c9c86 100%
+      );
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#nosotros p {
+    background-image: linear-gradient(
+        to bottom,
+        #df787273 0%,
+        #dd6d69a2 50%,
+        #f19c9c86 100%
+      ); 
+  font-size: 20px;
+  text-align: center;
+}
+.servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10vh;
+}
+.servicios img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 5px solid #410404;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10%;
+}
+.servicios a {
+    display: inline-block;
+    margin: 20px;
+    background-color: #f19c9c86;
+    color: #410404;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/**! stilos footer */
 #footer {
     margin-top: 10%;
   background-image: url("../img-semi/Semi.jpg"); /* Imagen de fondo opcional */
@@ -403,79 +527,3 @@ nav.links-footer ul {
   
   
 
-/** Estilos nosotros */
-
-#nosotros {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10vh;
-    background-image: url("../img-semi/Semi.jpg"); /* Imagen de fondo opcional */
-    background-size: cover;
-    opacity: 0.9; 
-    background-position: center;
-    color: white;
-}
-
-#nosotros h1 {
-  font-size: 34px;
-  text-align: center;
-  font-weight: bold;
-  color: #ffffffbd;
-  background-image: linear-gradient(
-      to bottom,
-      #aa7e7c73 0%,
-      #dd6d69a2 50%,
-      #f12d2d86 100%
-    );
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-#nosotros img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-    border: 5px solid #410404;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 10%;
-}
-
-#nosotros h2 {
-    font-size: 24px;
-    text-align: center;
-    font-weight: bold;
-    color: #ffffffbd;
-    background-image: linear-gradient(
-        to bottom,
-        #f7a19c73 0%,
-        #dd6d69a2 50%,
-        #f19c9c86 100%
-      );
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-#nosotros p {
-    background-image: linear-gradient(
-        to bottom,
-        #df787273 0%,
-        #dd6d69a2 50%,
-        #f19c9c86 100%
-      ); 
-  font-size: 20px;
-  text-align: center;
-}
-.servicios img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  border: 5px solid #410404;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  padding: 10%;
-}

@@ -46,7 +46,7 @@ const productos = [
     { nombre: 'Quitar acrilico mas hacer semipermanente', precio: 30, descripcion: 'Con base a nuestra experiencia y la calidad de nuestros productos, tambien ofrecemos no solo  retirar de manera saludable y con buenas tecnicas el acrilico, si no tambien luego dejar tus uñas impecables con un tratamiento de esmaltado semipermanete, para que sigas luciendo divina. "INCLUYE MANICURA RUSA"', imagen: 'http://localhost/unas-valladolid/img-semi/manicurahombre.png' },
     { nombre: 'Quitar semipermanente mas hacer manicura', precio: 15, descripcion: '"Nuestro proceso comienza con la remoción cuidadosa de tu esmalte semipermanente. Utilizamos productos especializados que ablandan el gel sin dañar tus uñas naturales. Después de retirar el esmalte, tus uñas estarán listas para recibir una manicura rusa, que incluye la limpieza profunda de cutículas, el limado y el pulido para un acabado perfecto."', imagen: 'http://localhost/unas-valladolid/img-acrilicas/Acr%C3%ADlicas.jpg' },
     { nombre: 'Pedicura completa con semipermante en pies', precio: 15, descripcion: 'pedicura en seco (rusa) base para preparar las uñas y dejarlas perfectas para un esmaltado semipermante, acompañado de la exfoliacion de las celulas muertas , mas la eliminacion de las durezas de los pies.', imagen: 'http://localhost/unas-valladolid/reconstrucciones/SANDIA.jpg' },
-    { nombre: 'Semipermanente en pies', precio: 35, descripcion: '¡Anímate a probar el esmalte semipermanente en pies y luce unas uñas hermosas durante más tiempo!', imagen: 'http://localhost/unas-valladolid/img-semi/img-pies/Pies%20fuera!!%20%23pedicura%20%23pedicuraenvalladolid.jpg' },
+    { nombre: 'Semipermanente en pies', precio: 35, descripcion: '¡Anímate a probar el esmalte semipermanente en pies y luce unas uñas hermosas durante más tiempo!', imagen: 'http://localhost/unas-valladolid/reconstrucciones/SANDIA.jpg' },
     { nombre: 'Solo quitar semi mas cortar uñas', precio: 15, descripcion: 'Descripción del producto 2', imagen: 'http://localhost/unas-valladolid/img-acrilicas/Acr%C3%ADlicas.jpg' },
     { nombre: 'Uña rota ', precio: 3, descripcion: '', imagen: 'http://localhost/unas-valladolid/img-acrilicas/Acr%C3%ADlicas.jpg' },
     { nombre: 'Decoracion de uña ', precio: 2, descripcion: 'Estamos encantadas con en hacer realidad tu idea asi que Cada decoracion tiene un precio extra por el trabajo artesanal y artistico que conlleva ademas del tiempo y los productos requeridos.', imagen: 'http://localhost/unas-valladolid/img-acrilicas/Acr%c3%adlicaspiedra.jpg' }, // ... más productos
@@ -94,7 +94,10 @@ const tarjetaProductos = `
     <div class="card-body">
       <h5 class="card-title precio"> Desde ${productos.precio}</h5>
     </div>
-    <p class="card-title">${productos.descripcion}</p></div>
+    <p class="card-title">${productos.descripcion}</p>
+     <button class="boton-llamada" onclick="location.href='tel:+34605309634'">Pedir cita</button>
+                <br>
+                <button class="boton-whatsapp" onclick="location.href='https://api.whatsapp.com/send?phone=++34605309634&text=Hola%20,%20quisiera%20más%20información%20o%20pedir%20una%20cita.'" hr>Enviar WhatsApp</button></div>
 `;
 tarjeta.innerHTML = tarjetaProductos;
 
@@ -126,7 +129,7 @@ tarjeta.innerHTML = tarjetaProductos;
 //     { nombre: 'Quitar acrilico mas hacer semipermanente', descripcion: 'Con base a nuestra experiencia y la calidad de nuestros productos, tambien ofrecemos no solo  retirar de manera saludable y con buenas tecnicas el acrilico, si no tambien luego dejar tus uñas impecables con un tratamiento de esmaltado semipermanete, para que sigas luciendo divina. "INCLUYE MANICURA RUSA"', imagen: 'http://localhost/unas-valladolid/img-semi/manicurahombre.png' },
 //     { nombre: 'Quitar semipermanente mas hacer manicura', descripcion: '"Nuestro proceso comienza con la remoción cuidadosa de tu esmalte semipermanente. Utilizamos productos especializados que ablandan el gel sin dañar tus uñas naturales. Después de retirar el esmalte, tus uñas estarán listas para recibir una manicura rusa, que incluye la limpieza profunda de cutículas, el limado y el pulido para un acabado perfecto."', imagen: 'http://localhost/unas-valladolid/img-acrilicas/Acr%C3%ADlicas.jpg' },
 //     { nombre: 'Pedicura completa con semipermante en pies', descripcion: 'pedicura en seco (rusa) base para preparar las uñas y dejarlas perfectas para un esmaltado semipermante, acompañado de la exfoliacion de las celulas muertas , mas la eliminacion de las durezas de los pies.', imagen: 'http://localhost/unas-valladolid/reconstrucciones/SANDIA.jpg' },
-//     { nombre: 'Semipermanente en pies', descripcion: '¡Anímate a probar el esmalte semipermanente en pies y luce unas uñas hermosas durante más tiempo!', imagen: 'http://localhost/unas-valladolid/img-semi/img-pies/Pies%20fuera!!%20%23pedicura%20%23pedicuraenvalladolid.jpg' },
+//     { nombre: 'Semipermanente en pies', descripcion: '¡Anímate a probar el esmalte semipermanente en pies y luce unas uñas hermosas durante más tiempo!', imagen: http://localhost/unas-valladolid/img-pies/Manos_y_pies.jpg },
 //     { nombre: 'Solo quitar semi mas cortar uñas', descripcion: 'Descripción del producto 2', imagen: 'http://localhost/unas-valladolid/img-acrilicas/Acr%C3%ADlicas.jpg' },
 //     { nombre: 'Uña rota ', descripcion: '', imagen: 'http://localhost/unas-valladolid/img-acrilicas/Acr%C3%ADlicas.jpg' },
 //     { nombre: 'Decoracion de uña ', descripcion: 'Estamos encantadas con en hacer realidad tu idea asi que Cada decoracion tiene un precio extra por el trabajo artesanal y artistico que conlleva ademas del tiempo y los productos requeridos.', imagen: 'http://localhost/unas-valladolid/img-acrilicas/Acr%c3%adlicaspiedra.jpg' }, // ... más productos
